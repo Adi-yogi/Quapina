@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders without crashing 1`] = `
+<div
+  className="searchForm"
+>
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      name="searchInCity"
+      onChange={[Function]}
+      placeholder="City Name"
+      required="required"
+      type="text"
+    />
+    <input
+      name="filterBy"
+      onChange={[Function]}
+      placeholder="Refine"
+      type="text"
+    />
+    <button
+      type="submit"
+    >
+      Search
+    </button>
+  </form>
+</div>
+`;

@@ -1,0 +1,124 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders properly when filter results no items 1`] = `
+<div
+  className="incenter"
+>
+  No Restaurant found for 
+  Boston
+   
+  and kitchen
+</div>
+`;
+
+exports[`renders properly when filtering 1`] = `
+<Fragment>
+  <div
+    className="resultHeader"
+  >
+    <h2>
+      Name
+    </h2>
+    <h2>
+      Address
+    </h2>
+    <h2>
+      Price
+    </h2>
+  </div>
+  <div
+    className="results"
+  >
+    <div
+      className="resultElement"
+      key="2827"
+    >
+      <h3>
+        Rowes Wharf Sea Grille
+      </h3>
+      <h3>
+        70 Rowes Wharf
+      </h3>
+      <h3>
+        2
+      </h3>
+    </div>
+  </div>
+</Fragment>
+`;
+
+exports[`renders properly when loading 1`] = `
+<div
+  className="incenter"
+>
+  Please wait
+</div>
+`;
+
+exports[`renders properly when no items 1`] = `
+<div
+  className="incenter"
+>
+  No Restaurant found for 
+  Boston
+   
+</div>
+`;
+
+exports[`renders properly with data 1`] = `
+<Fragment>
+  <div
+    className="resultHeader"
+  >
+    <h2>
+      Name
+    </h2>
+    <h2>
+      Address
+    </h2>
+    <h2>
+      Price
+    </h2>
+  </div>
+  <div
+    className="results"
+  >
+    <div
+      className="resultElement"
+      key="1635"
+    >
+      <h3>
+        Elephant Walk, The - Boston
+      </h3>
+      <h3>
+        900 Beacon Street
+      </h3>
+      <h3>
+        2
+      </h3>
+    </div>
+    <div
+      className="resultElement"
+      key="2829"
+    >
+      <h3>
+        Metropolis Cafe
+      </h3>
+      <h3>
+        584 Tremont Street
+      </h3>
+      <h3>
+        2
+      </h3>
+    </div>
+  </div>
+</Fragment>
+`;
+
+exports[`renders without crashing 1`] = `
+<div
+  className="incenter"
+>
+  Please enter a city to search. e.g. Orleans,Osseo,Norman etc.
+</div>
+`;
